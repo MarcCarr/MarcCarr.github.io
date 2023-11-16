@@ -1,0 +1,65 @@
+header {
+    width: 100%;
+    overflow: hidden;   
+    text-align: center; 
+}
+
+.banner {
+    display: inline-block;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(29,66,138);
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 150px;
+}
+
+.playergrid {
+    display: grid;
+    grid-template-columns: repeat(2, 712px);
+    grid-template-rows: 500px;
+}
+
+.item1 {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    height:100%;
+}
+
+.item2 {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.stadium {
+   
+}
+
+.elland {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(255,205,0);
+}
+
+
+
